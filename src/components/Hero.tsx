@@ -11,13 +11,13 @@ const Hero = () => {
           alt="Smuk hårfarve og styling"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-black/20"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/10 to-black/30"></div>
       </div>
 
       {/* Content */}
       <div className="relative z-10 flex-1 flex flex-col items-center justify-center px-4">
         {/* Title */}
-        <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl text-white mb-2 drop-shadow-lg" style={{ fontStyle: 'italic' }}>
+        <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl text-white mb-2 drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)] mt-20" style={{ fontStyle: 'italic' }}>
           Cille Lundqvist
         </h1>
 
