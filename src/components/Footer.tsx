@@ -52,7 +52,7 @@ const Footer = () => {
             </h4>
             <div className="space-y-2 text-primary-foreground/80">
               <p>Man - Fre: 9:00 - 18:00</p>
-              <p>Lørdag: 10:00 - 16:00</p>
+              <p>Lørdag: 09:00 - 13:00 eller efter aftale</p>
               <p>Søndag: Lukket</p>
             </div>
           </div>
