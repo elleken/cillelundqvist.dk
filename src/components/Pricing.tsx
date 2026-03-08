@@ -88,6 +88,9 @@ const Pricing = () => {
                       <span className="text-muted-foreground font-medium">{service.price}</span>
                     </div>
                   ))}
+                  {category.note && (
+                    <p className="text-sm text-muted-foreground italic pt-1">{category.note}</p>
+                  )}
                 </div>
               </div>
             </div>
