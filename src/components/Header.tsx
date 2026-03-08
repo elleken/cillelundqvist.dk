@@ -61,7 +61,7 @@ const Header = () => {
 
       {/* Mobile Navigation */}
       {isMenuOpen && (
-        <div className="md:hidden bg-primary border-t border-foreground/10 animate-in slide-in-from-top duration-200">
+        <div className="md:hidden bg-background border-t border-foreground/10 animate-in slide-in-from-top duration-200">
           <div className="container mx-auto px-4 py-4 flex flex-col gap-4">
             <button onClick={() => scrollToSection("home")} className="text-left text-foreground/70 hover:text-foreground transition-colors font-medium py-2">
               Hjem
