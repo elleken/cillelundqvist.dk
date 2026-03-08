@@ -3,10 +3,10 @@ const Pricing = () => {
     {
       title: "Klip",
       services: [
-        { name: "Dameklip", price: "525,-" },
-        { name: "Herreklip", price: "455,-" },
-        { name: "Børneklip (5-12 år)", price: "400,-" },
-        { name: "Babyklip (0-2,5 år)", price: "350,-" },
+        { name: "Dameklip", price: "Fra 525,-" },
+        { name: "Herreklip", price: "Fra 455,-" },
+        { name: "Børneklip (5-12 år)", price: "Fra 400,-" },
+        { name: "Babyklip (0-2,5 år)", price: "Fra 350,-" },
       ],
       note: "Tillæg for langt/tykt hår",
     },
