@@ -32,9 +32,9 @@ const Pricing = () => {
     {
       title: "Glossing",
       services: [
-        { name: "Kort", price: "500,-" },
-        { name: "Skulder", price: "600,-" },
-        { name: "Langt", price: "700,-" },
+        { name: "Kort", price: "Fra 500,-" },
+        { name: "Skulder", price: "Fra 600,-" },
+        { name: "Langt", price: "Fra 700,-" },
       ],
     },
     {
