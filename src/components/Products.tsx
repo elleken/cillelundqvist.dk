@@ -10,10 +10,10 @@ const Products = () => {
       category: "Hårpleje",
     },
     {
-      name: "Produkt 2",
+      name: "NATULIQUE Colour Shield Conditioner",
       image: productStyling,
-      description: "Kommer snart.",
-      category: "Kommer snart",
+      description: "En certificeret økologisk balsam der beskytter farvet hår med tempeltræekstrakt, açaibær og silkeprotein. Forsegler hårstrået, modvirker krus og bevarer farven længere. 95% naturlige ingredienser, uden parabener og silicone.",
+      category: "Hårpleje",
     },
   ];
 
