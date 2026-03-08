@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Instagram, Facebook } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -54,6 +54,28 @@ const Footer = () => {
               <p>Søndag: Lukket</p>
             </div>
           </div>
+        </div>
+
+        {/* Social Media */}
+        <div className="flex justify-center gap-6 mb-8">
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary-foreground hover:text-accent transition-colors"
+            aria-label="Instagram"
+          >
+            <Instagram className="w-6 h-6" />
+          </a>
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary-foreground hover:text-accent transition-colors"
+            aria-label="Facebook"
+          >
+            <Facebook className="w-6 h-6" />
+          </a>
         </div>
 
         <div className="border-t border-primary-foreground/20 pt-8 text-center">
