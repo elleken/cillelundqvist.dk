@@ -40,9 +40,9 @@ const Pricing = () => {
     {
       title: "Balayage",
       services: [
-        { name: "Top og sider", price: "1.650,-" },
-        { name: "Skulderlængde", price: "1.845,-" },
-        { name: "Langt", price: "2.245,-" },
+        { name: "Top og sider", price: "Fra 1.650,-" },
+        { name: "Skulderlængde", price: "Fra 1.845,-" },
+        { name: "Langt", price: "Fra 2.245,-" },
       ],
       note: "Tillæg 200,-",
     },
