@@ -79,7 +79,8 @@ const Pricing = () => {
                 <span className="text-sm text-primary font-medium tracking-wide uppercase">
                   {category.title}
                 </span>
-                <div className="mt-4 space-y-3">
+                <div className="w-full h-px bg-border mt-3 mb-4"></div>
+                <div className="space-y-3">
                   {category.services.map((service, sIndex) => (
                     <div key={sIndex} className="flex justify-between items-center">
                       <span className="text-foreground">{service.name}</span>
