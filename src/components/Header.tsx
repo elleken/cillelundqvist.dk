@@ -47,7 +47,7 @@ const Header = () => {
               Hjem
             </button>
             <button onClick={() => scrollToSection("about")} className="text-foreground hover:text-foreground/70 transition-colors font-bold text-sm">
-              Om Os
+              Om Mig
             </button>
             <button onClick={() => scrollToSection("products")} className="text-foreground hover:text-foreground/70 transition-colors font-bold text-sm">
               Produkter
