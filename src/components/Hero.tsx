@@ -8,7 +8,7 @@ const Hero = () => {
     <section
       id="home"
       className="relative flex flex-col overflow-hidden"
-      style={{ height: "80vh" }}
+      style={{ height: "65vh" }}
     >
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
