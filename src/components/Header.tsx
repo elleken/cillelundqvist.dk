@@ -39,9 +39,9 @@ const Header = () => {
 
         {/* Center: Name */}
         <div className="w-1/3 text-center">
-          <h1 className="text-xl md:text-2xl font-heading text-foreground" style={{ fontStyle: 'italic' }}>
+          <p className="text-xl md:text-2xl font-heading text-foreground" style={{ fontStyle: 'italic' }}>
             Cille Lundqvist
-          </h1>
+          </p>
           <p className="text-xs md:text-sm text-foreground/70 tracking-wide">
             frisør i Hellerup
           </p>
