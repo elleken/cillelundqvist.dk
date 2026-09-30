@@ -68,6 +68,11 @@ const Products = () => {
             </div>
           ))}
         </div>
+
+        <p className="text-center text-lg text-muted-foreground max-w-3xl mx-auto mt-12 leading-relaxed">
+          Jeg arbejder med Natulique – en eksklusiv, økologisk og bæredygtig
+          hårplejeserie af højeste kvalitet.
+        </p>
       </div>
     </section>
   );
