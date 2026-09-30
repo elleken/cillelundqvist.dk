@@ -42,6 +42,9 @@ const Header = () => {
           <h1 className="text-xl md:text-2xl font-heading text-foreground" style={{ fontStyle: 'italic' }}>
             Cille Lundqvist
           </h1>
+          <p className="text-xs md:text-sm text-foreground/70 tracking-wide">
+            frisør i Hellerup
+          </p>
         </div>
 
         {/* Right: Phone icon + Desktop nav */}
