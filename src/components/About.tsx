@@ -8,7 +8,7 @@ const About = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">
-            Cille Lundqvist
+            Cille Lundqvist – din frisør på Strandvejen i Hellerup
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-8"></div>
         </div>
@@ -38,17 +38,34 @@ const About = () => {
               behandlinger.
             </p>
             <p className="text-foreground/90 leading-relaxed mb-6">
-              Hos mig handler en frisørbehandling om mere end bare hår. Det er
-              en oplevelse, hvor der er tid til at finde frem til den stil, der
-              passer perfekt til dig, din personlighed og din hverdag.
+              Nu er jeg rykket til Hellerup – centralt beliggende på den
+              hyggelige Strandvej. Hos mig handler en frisørbehandling om mere
+              end bare hår. Det er en oplevelse med både ro og nærvær, hvor der
+              er tid til at finde frem til den stil, der passer perfekt til
+              dig, din personlighed og din hverdag.
             </p>
-            <p className="text-foreground/90 leading-relaxed">
-              Jeg arbejder med <strong>Natulique</strong>, en eksklusiv og
-              bæredygtig hårplejeserie, der er kendt for sine naturlige
-              ingredienser og skånsomme formuleringer. Produkterne er udviklet
-              med omtanke for både <strong>hår, hovedbund og miljø</strong>,
-              uden at gå på kompromis med resultatet.
+            <p className="text-foreground/90 leading-relaxed mb-6">
+              Dit hår er en del af din personlighed. Derfor tager jeg altid
+              udgangspunkt i dig, din hårtype og din livsstil, før vi går i
+              gang. Jeg er specialiseret inden for hårfarvning, balayage og
+              klipning, og jeg bruger kun produkter, der plejer og beskytter.
             </p>
+            <p className="text-foreground/90 leading-relaxed mb-8">
+              Jeg arbejder med <strong>Natulique</strong>, en økologisk,
+              eksklusiv og bæredygtig hårplejeserie, der er kendt for sine
+              naturlige ingredienser og skånsomme formuleringer. Produkterne er
+              udviklet med omtanke for både{" "}
+              <strong>hår, hovedbund og miljø</strong>, uden at gå på kompromis
+              med resultatet.
+            </p>
+            <a
+              href="https://cille-lundqvist.planway.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-8 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:opacity-90 transition-all uppercase tracking-wide"
+            >
+              Book her
+            </a>
           </div>
         </div>
       </div>
