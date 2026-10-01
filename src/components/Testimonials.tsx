@@ -35,14 +35,6 @@ const Testimonials = () => {
               key={index}
               className="bg-card rounded-lg p-8 shadow-soft hover:shadow-medium transition-all duration-300"
             >
-              <div className="flex gap-1 mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <Star
-                    key={i}
-                    className="w-5 h-5 fill-primary text-primary"
-                  />
-                ))}
-              </div>
               <p className="text-muted-foreground leading-relaxed italic">
                 "{testimonial.text}"
               </p>
