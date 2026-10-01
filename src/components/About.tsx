@@ -7,9 +7,12 @@ const About = () => {
     <section id="about" className="py-24 px-4 bg-secondary/30">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-heading font-bold mb-6">
-            Cille Lundqvist – din frisør på Strandvejen i Hellerup
+          <h1 className="text-4xl md:text-5xl font-heading font-bold mb-3">
+            Cille Lundqvist
           </h1>
+          <p className="text-xl md:text-2xl font-heading text-muted-foreground mb-6">
+            Din frisør på Strandvejen i Hellerup
+          </p>
           <div className="w-24 h-1 bg-primary mx-auto mb-8"></div>
         </div>
 
