@@ -15,6 +15,9 @@ const Testimonials = () => {
     {
       text: "Det er blevet mit faste sted at få ordnet hår. Jeg føler mig altid godt tilpas, og jeg ved, at jeg går derfra med et resultat, jeg bliver glad for.",
     },
+    {
+      text: "Professionel, sød og utrolig dygtig. Jeg føler mig altid i trygge hænder.",
+    },
   ];
 
   return (
