@@ -3,16 +3,19 @@ import { Star } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Maria S.",
-      text: "Cille er utrolig dygtig og tager sig tid til at lytte. Min balayage har aldrig set bedre ud – jeg får komplimenter overalt!",
+      text: "Jeg har været hos Cille flere gange nu, og jeg går altid derfra med følelsen af, at mit hår bare sidder helt rigtigt. Hun forstår virkelig, hvad jeg ønsker.",
     },
     {
-      name: "Louise H.",
-      text: "Endelig en frisør der forstår mit hår. Stemningen i salonen er rolig og hyggelig, og resultatet er altid i top.",
+      text: "Jeg var lidt nervøs for at få lavet min farve, men Cille tog sig virkelig tid til at snakke med mig først. Jeg blev så glad for resultatet!",
     },
     {
-      name: "Anne K.",
-      text: "Jeg har fulgt Cille i mange år. Hun er professionel, sød og bruger de bedste produkter. Kan varmt anbefales!",
+      text: "Det bedste ved at komme her er, at jeg føler mig lyttet til. Jeg behøver ikke altid selv vide præcis, hvad jeg vil – Cille hjælper mig med at finde det rigtige.",
+    },
+    {
+      text: "Jeg havde længe været træt af min hårfarve, men efter min behandling hos Cille følte jeg virkelig, at jeg havde fået mit hår tilbage. Jeg elsker det!",
+    },
+    {
+      text: "Det er blevet mit faste sted at få ordnet hår. Jeg føler mig altid godt tilpas, og jeg ved, at jeg går derfra med et resultat, jeg bliver glad for.",
     },
   ];
 
@@ -40,11 +43,8 @@ const Testimonials = () => {
                   />
                 ))}
               </div>
-              <p className="text-muted-foreground leading-relaxed mb-6 italic">
+              <p className="text-muted-foreground leading-relaxed italic">
                 "{testimonial.text}"
-              </p>
-              <p className="font-heading font-semibold text-foreground">
-                – {testimonial.name}
               </p>
             </div>
           ))}

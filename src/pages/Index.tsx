@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
-// import Testimonials from "@/components/Testimonials"; // hidden until real testimonials are ready
+import Testimonials from "@/components/Testimonials";
 import Products from "@/components/Products";
 import Pricing from "@/components/Pricing";
 import Footer from "@/components/Footer";
@@ -13,7 +13,7 @@ const Index = () => {
       <main>
         <Hero />
         <About />
-        {/* <Testimonials /> hidden until real testimonials are ready */}
+        <Testimonials />
 
         <Products />
         <Pricing />
